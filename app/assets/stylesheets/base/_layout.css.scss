@@ -1,16 +1,17 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+body {
+  padding-top: 50px !important;
+}
 
 div.home-wrapper{
-  width: 100%; 
+  width: 100%;
   margin: auto;
 }
 
 div.help-wrapper{
-  width: 30%; 
+  width: 30%;
   margin: auto;
 
   ul{
     margin-bottom: -15px;
   }
-} 
+}

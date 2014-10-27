@@ -1,0 +1,30 @@
+.navbar{
+  padding: 0;
+}
+
+
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  color: #428bca;
+  line-height: 1;
+  font-family: "Gill Sans MT";
+
+  &:hover {
+    text-decoration: none;
+    color: none;
+  }
+}
+
+.bold {
+  font-style: bold;
+}
+
+#dropdownMenu1 {
+  color: $gray;
+}

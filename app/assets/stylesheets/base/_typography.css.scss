@@ -1,8 +1,3 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-/* typography */
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -74,7 +69,7 @@ textarea {
     margin: 20px 40px;
     font-weight: bold;
   }
-}  
+}
 
 .align-top {
   length: -10em;
@@ -98,15 +93,15 @@ textarea {
 
 .pix10 {
   font-size: 10px;
-} 
+}
 
 .pix12 {
   font-size: 12px;
-} 
+}
 
 .pix14 {
   font-size: 14px;
-}   
+}
 
 .jumbotron {
   margin-top: 1em;

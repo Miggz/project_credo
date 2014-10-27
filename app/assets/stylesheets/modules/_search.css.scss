@@ -1,15 +1,5 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-@mixin box_sizing {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: borraider-box;
-}
-
-/* Search */
-
 .search {
+
   input[type="text"], textarea, .uneditable-input {
     border: 1px solid #bbb;
     margin-bottom: 15px;
@@ -19,4 +9,4 @@
   input {
     height: auto !important;
   }
-} 
+}

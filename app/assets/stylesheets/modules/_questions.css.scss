@@ -1,28 +1,31 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-
-/* Questions index */
-
-div.questions {
+.questions {
   width: 40%;
   list-style: none;
   margin: auto;
 
   .search {
-  width: 50%;
-  padding-bottom: 5px;
+    width: 50%;
+    padding-bottom: 5px;
   }
 
   ul {
-    list-style: none;  
+    list-style: none;
     overflow: auto;
-    font-size: 14px;    
+    font-size: 14px;
     padding: 5px 0;
     border-top: 1px solid $gray-lighter;
     &:last-child {
       border-bottom: 1px solid $gray-lighter;
     }
-  }  
-    
+  }
+
+}
+
+.question-history {
+  width:60%;
+  margin: auto;
+
+  h2 {
+    text-align: left;
+  }
 }

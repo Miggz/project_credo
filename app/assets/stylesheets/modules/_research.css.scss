@@ -1,0 +1,90 @@
+.researches {
+
+  width: 40%;
+  list-style: none;
+  margin: auto;
+
+  ul {
+    list-style: none;
+    overflow: auto;
+    font-size: 1.4em;
+    padding: 5px 0;
+    border-top: 1px solid $gray-lighter;
+    &:last-child {
+      border-bottom: 1px solid $gray-lighter;
+    }
+  }
+
+
+  b.research_title {
+    font-size: .8em;
+  }
+
+  ul.finding {
+    font-size: .7em;
+    border-top: none;
+    border-bottom: none;
+    overflow: auto;
+  }
+
+  li.finding {
+
+    border-top: 1px solid $gray-lighter;
+    margin: 3px 0 0 0px;
+
+    &:first-of-type {
+      border-top: none;
+    }
+  }
+
+  b.finding {
+  }
+
+  .pix10 {
+    font-size: 10px;
+    position: relative;
+  }
+
+  .score {
+    font-size: 20px;
+    position: relative;
+  }
+}
+
+.research-wrapper{
+  width: 40%;
+  margin: auto;
+
+  h2 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 7px;
+    text-align: left;
+    font-weight: normal;
+    color: $gray;
+  }
+
+  ol {
+    font-size: 14px;
+    width: 90%;
+    font-weight: normal;
+    padding: 0;
+  }
+
+  li {
+    border-top: 1px solid $gray-lighter;
+    margin: 3px 0 0 50px;
+  }
+
+  section {
+    padding: 5px 0;
+    border-top: 1px solid $gray-lighter;
+  }
+}
